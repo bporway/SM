@@ -5,6 +5,6 @@
   </header>
   <div class="entry-summary">
     <?php the_excerpt(); ?>
-      Hi theree
+    <p>dffdfdf</p>  Hi theree
   </div>
 </article>

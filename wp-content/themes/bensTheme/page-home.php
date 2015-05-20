@@ -7,7 +7,7 @@
 
        <div class="container homeCenter">
             <div class="row">
-            <div class="col-md-6" style="border:solid;">
+            <!-- <div class="col-md-6" style="border:solid;">
                 <p>Thumbnails </p>
 
                       <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
@@ -42,7 +42,48 @@
 
                       <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
+                         </div>  bootstrap thumbnail gallery -->
+
+                <!-- desktop non bootstrap thumbnails -->
+
+                 <p>Thumbnails Desktop </p>
+                 <div class="thumbContainer" style="width:400px;">
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+                        </div>
                          </div>
+
+                <!-- end desktop non bootstrap thumbnails -->
+
 
                   <div class="col-md-6" style="border:solid;">
                   <p>This is the main image</p>

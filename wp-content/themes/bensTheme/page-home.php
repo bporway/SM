@@ -47,10 +47,40 @@
                 <!-- desktop non bootstrap thumbnails -->
 
                  <p>Thumbnails Desktop </p>
-                 <div class="thumbContainer" style="width:400px;">
+                 <div class="thumbContainer" style="width:400px;overflow:scroll;">
+                     <div class="thumbFullLength">
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+
+                      <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
+                          <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
@@ -80,7 +110,9 @@
 
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
                         </div>
+                        </div>
                          </div>
+                            </div>
 
                 <!-- end desktop non bootstrap thumbnails -->
 

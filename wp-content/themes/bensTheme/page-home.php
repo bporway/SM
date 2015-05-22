@@ -2,7 +2,7 @@
 
 
 
-      <h1 class="entry-title"><?php the_title(); ?> "this is the title "</h1>
+     <!-- <h1 class="entry-title"><?php the_title(); ?> "this is the title "</h1> -->
       <?php #get_template_part('templates/entry-meta'); ?>
 
        <div class="container homeCenter">

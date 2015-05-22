@@ -78,7 +78,7 @@
                  <!-- main image -->
 
             <div class="sm-main-image" style="border:solid;">
-                  <p>This is the main image</p>
+
                       <img class="mainImage" src ="/wp-content/themes/bensTheme/assets/images/thumbPH.png">
             </div>
 

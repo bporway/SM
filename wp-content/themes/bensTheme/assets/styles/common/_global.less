@@ -58,10 +58,14 @@ li.sm-thumb-li {
 
 /* overriding sage menu */
 
+.navbar-default .navbar-nav{
+    font-size:9pt;
+
+}
 .navbar-default .navbar-nav>li>a {
 
     color:white;
-    font-size:9pt;
+    font-size:inherit;
     font-weight:bold;
     font-family:"Arial", "Helvetica", "sans-serif";
 
@@ -70,6 +74,11 @@ li.sm-thumb-li {
     }
 }
 
+.navbar-collapse collapse in>[aria-expanded="true"]{
+
+    @sm-color: red;
+
+}
 .nav>li>a {
     padding:0px 20px;
 }

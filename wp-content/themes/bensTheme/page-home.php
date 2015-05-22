@@ -48,7 +48,7 @@
 
                  <p>Thumbnails Desktop </p>
                  <div class="thumbContainer" style="width:400px;overflow:scroll;">
-                     <div class="thumbFullLength">
+                     <div class="thumbFullLength style=width:1000px;">
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>

@@ -7,48 +7,10 @@
 
        <div class="container homeCenter">
             <div class="row">
-            <!-- <div class="col-md-6" style="border:solid;">
-                <p>Thumbnails </p>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                      <div class="col-md-3"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
-
-                         </div>  bootstrap thumbnail gallery -->
-
-                <!-- desktop non bootstrap thumbnails -->
 
                  <p>Thumbnails Desktop </p>
-                 <div class="thumbContainer" style="width:250px;height:250px;overflow:scroll;">
-                     <div class="thumbFullLength style=width:1000px;">
+                 <div class="thumbContainer">
+                     <div class="innerContainer">
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>
 
                       <div class="sm-thumb2"><img class ="thumb" src="/wp-content/themes/bensTheme/assets/images/thumbPH.png"></div>

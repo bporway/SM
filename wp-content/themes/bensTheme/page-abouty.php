@@ -6,76 +6,117 @@
       <?php #get_template_part('templates/entry-meta'); ?>
 
        <div class="container homeCenter">
+           
+            <div class="innerContainer">
 
-            <div class="row">
+                <div class="thumb_table">
+                    <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                      
+                   <div class="thumb_column">
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        
+                        <div class="thumb_row"></div>
+                        </div>
+                    
+                    
+    <div class="column">
+        <div class="thumb_row"></div>
+            <div class="thumb_row"></div>
+            <div class="thumb_row"></div>
+        
+    </div>
+</div>
+                
+              
+            </div>
+            
 
-                 <ul class="sm-thumb-container">
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-                          <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                      <li class="sm-thumb-li"><img class ="thumb" src="../wp-content/themes/bensTheme/thumbPH.png"></li>
-
-                </ul>
-
-
-                 <!-- main image -->
 
             <div class="sm-main-image" style="border:solid;">
 

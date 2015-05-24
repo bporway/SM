@@ -104,13 +104,7 @@
                         <div class="thumb_row"></div>
                         </div>
                     
-                    
-    <div class="column">
-        <div class="thumb_row"></div>
-            <div class="thumb_row"></div>
-            <div class="thumb_row"></div>
-        
-    </div>
+     
 </div>
                 
               

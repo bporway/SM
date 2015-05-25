@@ -3,6 +3,7 @@
 <?php
 
 $images = get_field('images');
+$count = 0 ;
 echo count($images);
 
 ?>
@@ -14,13 +15,21 @@ echo count($images);
            
             <div class="innerContainer">
                 <div class="thumb_table">
-                    <div class="thumb_column">
+
                 <?php foreach($images as $image) : ?>
+
+                        <?php if ($count % 4 == 0 ) {
+                            echo "<div class=\"thumb_column\">";
+
+}
+
+                ?>
 
 
                         <div class="thumb_row"><img src="<?php echo $image['url'] ?>"></div>
 
-
+                <?php $count++; ?>
+                <?php if($count % 4 == 0 ) { echo "</div>";} ?>
 
                     
                 <?php endforeach; ?>

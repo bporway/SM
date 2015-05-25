@@ -1,109 +1,32 @@
 <?php while (have_posts()) : the_post(); ?>
 
+<?php
 
+$images = get_field('images');
+echo count($images);
+
+?>
 
      <!-- <h1 class="entry-title"><?php the_title(); ?> "this is the title "</h1> -->
-      <?php #get_template_part('templates/entry-meta'); ?>
+
 
        <div class="container homeCenter">
            
             <div class="innerContainer">
-
                 <div class="thumb_table">
                     <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
+                <?php foreach($images as $image) : ?>
+
+
+                        <div class="thumb_row"><img src="<?php echo $image['url'] ?>"></div>
+
+
+
+                    
+                <?php endforeach; ?>
                         </div>
                     
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
-                      
-                   <div class="thumb_column">
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        
-                        <div class="thumb_row"></div>
-                        </div>
-                    
+
      
 </div>
                 

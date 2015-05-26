@@ -12,7 +12,7 @@ echo count($images);
 
 
        <div class="container homeCenter">
-           
+           <div class="clippingContainer">
             <div class="innerContainer">
                 <div class="thumb_table">
 
@@ -38,7 +38,7 @@ echo count($images);
 
      
 </div>
-                
+           </div>
               
             </div>
             

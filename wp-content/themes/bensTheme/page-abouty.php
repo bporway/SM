@@ -79,7 +79,7 @@ $( document ).ready(function() {
 
 $('.thumb_row').click(function(){
     var $clickedImage =$(this).children('img').attr("src");
-    alert($clickedImage);
+   // alert($clickedImage);
     $('.mainImage').attr("src", $clickedImage);
 });
     //scrolling script on mouse

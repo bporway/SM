@@ -37,6 +37,7 @@
         "./fonts/glyphicons-halflings-regular.woff2"
       ]
     },
+      
     "bootstrap-sass-official": {
       "main": [
         "./assets/stylesheets/_bootstrap.scss",

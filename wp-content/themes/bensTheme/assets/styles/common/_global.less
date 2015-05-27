@@ -23,7 +23,13 @@
     width:100%;
 }
 
-.mainImage {width:100%;}
+.mainImage {
+
+    max-width: 478px;
+    max-height: 370px;
+    display:block;
+    margin:auto;
+}
 
 .col-md-3 {padding-left:0px;}
 
@@ -42,8 +48,11 @@
 }
 
 .sm-main-image{
- float:right;
-  width:420px;
+ float:left;
+ width:420px;
+  left: 26px;
+  position: relative;
+  bottom:40px;
 }
 .thumbContainer{
  //width:265px;
@@ -217,7 +226,7 @@ CSSTableGenerator {
    // background-color:red;
     height: 50px;
     width:50px;
-    border: 1px black solid;
+    //border: 1px black solid;
     margin:16px;
     overflow:hidden;
 
@@ -259,7 +268,7 @@ CSSTableGenerator {
 
 .clippingContainer {
     overflow:hidden;
-    width:290px;
+    width:250px;
     height:300px;
     float:left;
 }
@@ -272,7 +281,7 @@ CSSTableGenerator {
     -moz-transition: all .15s ease-in-out;
     -o-transition: all .15s ease-in-out;
     -ms-transition: all .15s ease-in-out;
-    box-shadow: 4px 4px 2px #AEAEAE;
+    box-shadow: 2px 2px 1px #AEAEAE;
 }
 
 .transition {
@@ -280,4 +289,10 @@ CSSTableGenerator {
     -moz-transform: scale(1.5) !important;
     -o-transform: scale(1.5) !important;
     transform: scale(1.5) !important;
+}
+
+
+.sm-main-holder {
+    width:515px;
+    float:right;
 }

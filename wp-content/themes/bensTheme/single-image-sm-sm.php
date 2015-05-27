@@ -42,12 +42,15 @@ $count = 0 ;
             </div>
 
 
+    <!-- container to align main image -->
 
-            <div class="sm-main-image" style="border:solid;">
+   <div class="sm-main-holder">
+            <div class="sm-main-image">
 
                       <img class="mainImage" src ="../wp-content/themes/bensTheme/thumbPH.png">
             </div>
-
+   </div>
+    <!-- end container -->
            <!-- end main image -->
                          </div>
 
@@ -75,11 +78,24 @@ $count = 0 ;
 <script>
 
 $( document ).ready(function() {
+
+    //set starter main image
+
+    $('.mainImage').attr("src",$('.thumb_row').first().children('img').attr("src"));
     //click for main image script
 
 $('.thumb_row').click(function(){
     var $clickedImage =$(this).children('img').attr("src");
    // alert($clickedImage);
+
+    //check if horizontal image, adjust vertical centering
+    if ($(this).children('img').width()>$(this).children('img').height()) {
+        $('.sm-main-image').css("bottom","11px");
+    }
+    else {
+
+        $('.sm-main-image').css("bottom","40px");
+    }
     $('.mainImage').attr("src", $clickedImage);
 });
     //scrolling script on mouse

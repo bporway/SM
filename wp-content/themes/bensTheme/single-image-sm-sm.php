@@ -38,7 +38,7 @@ $count = 0 ;
 
 </div>
            </div>
-
+<!-- footer -->
             </div>
 
 
@@ -55,6 +55,8 @@ $count = 0 ;
                          </div>
 
 
+<div align="center" class="sm-footer"><div style="text-align: center;"><img border="0" height="27" src="http://stevemarselstudio.com/web/images/html/footer_phone.gif" width="119"><a href="#" onmouseout="swapImgRestore();" onmouseover="swapImage('footerEmail','','web/images/html/footer_email_rollover.gif',1);"><img border="0" height="27" id="footerEmail" name="footerEmail" src="http://stevemarselstudio.com/web/images/html/footer_email.gif" width="188"></a></div>
+</div>
 
                             </div>
 
@@ -86,17 +88,32 @@ $( document ).ready(function() {
 
 $('.thumb_row').click(function(){
     var $clickedImage =$(this).children('img').attr("src");
-   // alert($clickedImage);
+   var $clickedImageObject = $(this).children('img');
 
-    //check if horizontal image, adjust vertical centering
-    if ($(this).children('img').width()>$(this).children('img').height()) {
+    
+    //fade in script
+    
+    $(".mainImage").fadeOut(function() { 
+        
+              //check if horizontal image, adjust vertical centering
+    if ($clickedImageObject.width()>$clickedImageObject.height()) {
         $('.sm-main-image').css("bottom","11px");
     }
     else {
 
-        $('.sm-main-image').css("bottom","40px");
+        $('.sm-main-image').css("bottom","38px");
     }
-    $('.mainImage').attr("src", $clickedImage);
+        
+  $(".mainImage").load(function() { $(this).fadeIn(); }); 
+        
+  
+        
+  $(".mainImage").attr("src", $clickedImage); 
+}); 
+    
+    
+    
+  //  $('.mainImage').attr("src", $clickedImage);
 });
     //scrolling script on mouse
 var $div = $('.innerContainer');

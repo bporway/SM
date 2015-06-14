@@ -1,30 +1,30 @@
 <?php while (have_posts()) : the_post(); ?>
 
 <?php
-//retrieve about info
-$aboutTitle = get_field('aboutTitle');
-$aboutDescription = get_field('aboutDescription');
-$aboutImage = get_field('aboutImage');
+
+$aboutTitle = get_field('abouttitle');
+$aboutDescription = get_field('aboutdescription');
+$aboutImage = get_field('aboutimage');
 
 ?>
-<div class = "container homeCenter">
+<div class = "homeCenter">
     <div class="row">
 
 
-        <div class="col-md-3">
+        <div class="col-md-5">
             <div class="sm-about-image">
-            <img src = "http://www.stevemarselstudio.com/web/images/html/about_centerpiece.jpg" >
+            <img src ="<?php echo $aboutImage; ?>" >
             </div>
         </div>
 
 
-        <div class="col-md-9">
+        <div class="col-md-7">
             <div class="sm-page-title">
-            <P>"title"</P>
+            <P><?php echo $aboutTitle; ?></P>
             </div>
 
             <div class="sm-page-description">
-            <P>"description"</P>
+            <P><?php echo $aboutDescription; ?></P>
             </div>
         </div>
 

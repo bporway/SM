@@ -18,3 +18,4 @@ wp-content/themes/bensTheme/.sass-cache
 
 ### Sass ###
 .sass-cache 
+node_modules/

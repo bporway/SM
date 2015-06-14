@@ -12,7 +12,7 @@
         
     <div id = "sm-header">   
         <div id="sm-logo">
-      <a href="<?= esc_url(home_url('/')); ?>"><img src="http://wp:8888/wp-content/uploads/2015/05/studio_logo1.png"></a>
+            <a href="<?= esc_url(home_url('/')); ?>"><img src="/wp-content/themes/bensTheme/studio_logo.png"></a>
         </div>    
    
     <nav class="collapse navbar-collapse" role="navigation">

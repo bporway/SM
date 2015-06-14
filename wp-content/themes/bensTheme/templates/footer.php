@@ -10,6 +10,12 @@
 
           <p>blog | sitemap</p>
           </div>
+
+          <div class = "sm-copyright">
+              <p>All photographs and images contained here are the property of Steve Marsel Studio, Inc. and protected under copyright laws.
+Any reuse without written consent from Steve Marsel Studio, Inc. and/or its agents is strictly prohibited.
+              </p>
+          </div>
       </div>
     </div>
 </footer>

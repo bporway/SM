@@ -1,6 +1,34 @@
 <?php while (have_posts()) : the_post(); ?>
 
+<?php $contactInfo = the_content(); ?>
+
 <div class = "homeCenter">
+
+    <div class= "sm-contact-info">
+
+    <p class="pageTitle">contact</p>
+<b>Steve Marsel
+Steve Marsel Studio</b>
+561 Windsor Street
+Somerville, MA, 02143
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="top">
+<td><b>phone:  </b>
+
+<b>fax:</b></td>
+<td>617 718 7407
+888 254 6505
+617 718 7409</td>
+</tr>
+<tr valign="top">
+<td><b>email:</b></td>
+<td><a href="http://stevemarselstudio.com/mail.php"><img id="contactEmail" src="http://stevemarselstudio.com/web/images/html/contact_email.gif" alt="" width="191" height="16" name="contactEmail" border="0" /></a></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
 
 </div>
 

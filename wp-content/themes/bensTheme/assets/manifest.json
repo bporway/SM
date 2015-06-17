@@ -22,8 +22,13 @@
     },
     "modernizr.js": {
       "bower": ["modernizr"]
+    },
+       "elastislide.js": {
+      "bower": ["elastislide"]
     }
+      
   },
+     
   "config": {
     "devUrl": "WP:8888"
   }

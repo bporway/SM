@@ -96,6 +96,7 @@ function bower_map_to_cdn($dependency, $fallback) {
 
 function assets() {
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
+    
 
   /**
    * Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
@@ -118,18 +119,21 @@ function assets() {
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
   }
-
+      wp_enqueue_script('elastislide', asset_path('scripts/jquery.elastislide.js'),[], null, true);
   wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
   wp_enqueue_script('jquery');
   wp_enqueue_script('sage_js', asset_path('scripts/main.js'), [], null, true);
+
+  wp_enqueue_script('jquerypp', asset_path('scripts/jquerypp.custom.js'),[],null,true);
+    
 }
-add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);
+add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100); 
 
 // http://wordpress.stackexchange.com/a/12450
 function jquery_local_fallback($src, $handle = null) {
   static $add_jquery_fallback = false;
 
-  if ($add_jquery_fallback) {
+  if ($add_jquery_fallback) { 
     echo '<script>window.jQuery || document.write(\'<script src="' . $add_jquery_fallback .'"><\/script>\')</script>' . "\n";
     $add_jquery_fallback = false;
   }

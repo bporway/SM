@@ -1,3 +1,17 @@
+<!--load scripts -->
+        <script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/js/jquery.elastislide.js"></script>
+
+<script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/js/modernizr.custom.17475.js"></script>
+<script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/js/jquerypp.custom"></script>
+
+<!-- load styles -->
+
+<link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/css/elastislide.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/css/custom.css" />
+
+
+
 <?php while (have_posts()) : the_post(); ?>
 
 <?php
@@ -7,10 +21,77 @@ $count = 0 ;
 //echo count($images);
 
 ?>
+<div id="sm-mobile-check"></div>
 
-     <!-- <h1 class="entry-title"><?php the_title(); ?> "this is the title "</h1> -->
+<script>
+    //check if mobile div is hidden
+    $( document ).ready(function() {
+    var is_mobile = false;
 
-       <div class="container homeCenter">
+    if( $('#sm-mobile-check').css('display')=='none') {
+        is_mobile = true;
+    }
+
+    // is_mobile to run javascript conditionally
+
+    if (is_mobile == true) {
+        alert("mobile");
+        $('.homeCenter').hide();
+        $('#sm-gallery-homeCenter').hide();
+        $('.image-preview').show();
+       // $('.elastislide-wrapper').find('.elastislide-horizontal').show();
+
+
+    }
+ });
+
+</script>
+
+<script> $(document).ready(function(){ $('#carousel').elastislide();
+
+        //on click display preview image
+
+                                      $('li').click(function() {
+
+                                        $previewImageSrc =   $(this).find('img').attr("src");
+                                        $('#sm-mobile-preview').attr("src",$previewImageSrc);
+
+
+                                      });
+
+
+
+
+                                     });</script>
+
+<!-- alt mobile version main image -->
+
+
+<div class="image-preview">
+						<img id="sm-mobile-preview" src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg">
+					</div>
+
+<!-- alt mobile version thumbs -->
+<ul id="carousel" class="elastislide-list">
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/1.jpg" alt="image01" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/2.jpg" alt="image02" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg" alt="image03" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/4.jpg" alt="image04" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/5.jpg" alt="image05" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/6.jpg" alt="image06" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/7.jpg" alt="image07" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/8.jpg" alt="image08" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/9.jpg" alt="image09" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/1.jpg" alt="image01" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/2.jpg" alt="image02" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg" alt="image03" /></a></li>
+
+	<!-- ... -->
+</ul>
+
+
+<!-- main gallery code -->
+       <div id="sm-gallery-homeCenter" class="container homeCenter">
            <div class="clippingContainer">
             <div class="innerContainer">
                 <div class="thumb_table">
@@ -40,21 +121,18 @@ $count = 0 ;
            </div>
 <!-- footer -->
             </div>
-
-
-    <!-- container to align main image -->
-
-   <div class="sm-main-holder">
+<!-- container to align main image -->
+      <div class="sm-main-holder">
             <div class="sm-main-image">
 
                       <img class="mainImage" src ="../wp-content/themes/bensTheme/thumbPH.png">
             </div>
    </div>
-    <!-- end container -->
-           <!-- end main image -->
-                         </div>
+      </div>
+ <!-- end container -->
 
 
+<!-- footer -->
 <div align="center" class="sm-footer"><div style="text-align: center;"><img border="0" height="27" src="http://stevemarselstudio.com/web/images/html/footer_phone.gif" width="119"><a href="#" onmouseout="swapImgRestore();" onmouseover="swapImage('footerEmail','','web/images/html/footer_email_rollover.gif',1);"><img border="0" height="27" id="footerEmail" name="footerEmail" src="http://stevemarselstudio.com/web/images/html/footer_email.gif" width="188"></a></div>
 </div>
 

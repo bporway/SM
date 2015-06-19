@@ -24,26 +24,10 @@ $count = 0 ;
 <div id="sm-mobile-check"></div>
 
 <script>
-    //check if mobile div is hidden
-    $( document ).ready(function() {
-    var is_mobile = false;
-
-    if( $('#sm-mobile-check').css('display')=='none') {
-        is_mobile = true;
-    }
-
-    // is_mobile to run javascript conditionally
-
-    if (is_mobile == true) {
-        alert("mobile");
-        $('.homeCenter').hide();
-        $('#sm-gallery-homeCenter').hide();
-        $('.image-preview').show();
-       // $('.elastislide-wrapper').find('.elastislide-horizontal').show();
 
 
-    }
- });
+
+
 
 </script>
 
@@ -66,6 +50,30 @@ $count = 0 ;
 
 <!-- alt mobile version main image -->
 
+<script>
+    //check if mobile div is hidden
+    $( document ).ready(function() {
+    var is_mobile = false;
+
+    if( $('#sm-mobile-check').css('display')=='none') {
+        is_mobile = true;
+    }
+
+    // is_mobile to run javascript conditionally
+
+    if (is_mobile == true) {
+        alert("mobile");
+        $('.homeCenter').hide();
+        $('#sm-gallery-homeCenter').hide();
+        $('div.elastislide-wrapper.elastislide-horizontal').show();
+        $('.image-preview').show();
+       // $('.elastislide-wrapper').find('.elastislide-horizontal').show();
+
+
+    }
+
+    });
+</script>
 
 <div class="image-preview">
 						<img id="sm-mobile-preview" src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg">

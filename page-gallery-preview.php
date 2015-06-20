@@ -80,17 +80,22 @@ $count = 0 ;
 					</div>
 
 <!-- alt mobile version thumbs -->
-
-
 <ul id="carousel" class="elastislide-list">
-    <?php foreach($images as $image) : ?>
-	<li><a href="#"><img src="<?php echo $image['url'] ?>" alt="image01" /></a></li>
-
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/1.jpg" alt="image01" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/2.jpg" alt="image02" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg" alt="image03" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/4.jpg" alt="image04" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/5.jpg" alt="image05" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/6.jpg" alt="image06" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/7.jpg" alt="image07" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/8.jpg" alt="image08" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/9.jpg" alt="image09" /></a></li>
+    	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/1.jpg" alt="image01" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/2.jpg" alt="image02" /></a></li>
+	<li><a href="#"><img src="<?php echo site_url(); ?>/wp-content/themes/bensTheme/Elastislide/images/small/3.jpg" alt="image03" /></a></li>
 
 	<!-- ... -->
-     <?php endforeach; ?>
 </ul>
-
 
 
 <!-- main gallery code -->
@@ -171,11 +176,11 @@ $('.thumb_row').click(function(){
     var $clickedImage =$(this).children('img').attr("src");
    var $clickedImageObject = $(this).children('img');
 
-    
+
     //fade in script
-    
-    $(".mainImage").fadeOut(function() { 
-        
+
+    $(".mainImage").fadeOut(function() {
+
               //check if horizontal image, adjust vertical centering
     if ($clickedImageObject.width()>$clickedImageObject.height()) {
         $('.sm-main-image').css("bottom","11px");
@@ -184,16 +189,16 @@ $('.thumb_row').click(function(){
 
         $('.sm-main-image').css("bottom","38px");
     }
-        
-  $(".mainImage").load(function() { $(this).fadeIn(); }); 
-        
-  
-        
-  $(".mainImage").attr("src", $clickedImage); 
-}); 
-    
-    
-    
+
+  $(".mainImage").load(function() { $(this).fadeIn(); });
+
+
+
+  $(".mainImage").attr("src", $clickedImage);
+});
+
+
+
   //  $('.mainImage').attr("src", $clickedImage);
 });
     //scrolling script on mouse

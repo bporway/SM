@@ -707,10 +707,15 @@ font-family: "Arial", "Helvetica", "sans-serf";
  width:100%;
 }
 
-//mobile check
+//mobile check and menu shrinking
 
 @media only screen and (max-width: 760px) {
     #sm-mobile-check {display:none;}
+    .navbar-header {
+     background-color:white;
+
+    }
+    #sm-logo {margin-top:-22px;}
 }
 
 //pre mobile hiding
@@ -724,4 +729,20 @@ div.elastislide-wrapper.elastislide-horizontal {
 
    display:none;
 
+}
+
+@media all and (orientation:landscape) {
+    .image-preview {display:none;}
+   // #sm-logo {display:block;}
+
+}
+
+@media all and (orientation:portrait){
+    .image-preview {display:block;}
+   // #sm-logo {display:none;}
+}
+
+
+#carousel > li> a > img {
+ margin-bottom:40%;
 }

@@ -3,6 +3,7 @@
 
 <script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/js/modernizr.custom.17475.js"></script>
 <script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/Elastislide/js/jquerypp.custom"></script>
+<script type="text/javascript" src="<?php echo site_url(); ?>wp-content/themes/bensTheme/jquery.mobile-1.4.5.min.js"></script>
 
 <!-- load styles -->
 
@@ -66,7 +67,7 @@ $count = 0 ;
         $('.homeCenter').hide();
         $('#sm-gallery-homeCenter').hide();
         $('div.elastislide-wrapper.elastislide-horizontal').show();
-        $('.image-preview').show();
+       // $('.image-preview').show();
        // $('.elastislide-wrapper').find('.elastislide-horizontal').show();
 
 
@@ -92,7 +93,16 @@ $count = 0 ;
 </ul>
 
 
+<script>
 
+$( window ).on( "orientationchange", function( event ) {
+    alert("hi");
+    $('.image-preview').hide();
+
+});
+
+
+</script>
 <!-- main gallery code -->
        <div id="sm-gallery-homeCenter" class="container homeCenter">
            <div class="clippingContainer">
